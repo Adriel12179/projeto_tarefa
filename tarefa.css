@@ -1,0 +1,103 @@
+/* Reset básico */
+body {
+  font-family: Arial, sans-serif;
+  background: lab(70.06% 0.36 0.12);
+  margin: 0;
+  padding: 20px;
+}
+
+/* Título */
+h2 {
+  text-align: center;
+  color: #000000;
+}
+
+/* Caixa principal */
+body {
+  max-width: 500px;
+  margin: auto;
+  margin: auto;
+}
+
+/* Input */
+#inputTarefa {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+/* Botão */
+button {
+  padding: 10px;
+  border: none;
+  background: #38d13d;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover botão */
+button:hover {
+  background: #45a049;
+}
+
+/* Lista */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  
+}
+
+/* Cada tarefa */
+li {
+  background: white;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-left: 6px solid #4CAF50;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Texto da tarefa */
+li span {
+  flex: 1;
+}
+
+/* Botões dentro da tarefa */
+li button {
+  margin-left: 5px;
+  background: #ddd;
+  color: black;
+}
+
+/* Botão concluir */
+li button:nth-child(2) {
+  background: #4CAF50;
+  color: white;
+}
+
+/* Botão editar */
+li button:nth-child(3) {
+  background: #2196F3;
+  color: white;
+}
+
+/* Botão remover */
+li button:nth-child(4) {
+  background: #f44336;
+  color: white;
+}
+
+/* Frase motivacional */
+p {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+  font-style: italic;
+}
