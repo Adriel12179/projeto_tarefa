@@ -1,3 +1,5 @@
+// Projeto criado no intuito de aprender JS e JSON
+
 // Carrega as tarefas salvas no navegador (localStorage)
 let tarefas = JSON.parse(localStorage.getItem("tarefas")) || [];  
 
